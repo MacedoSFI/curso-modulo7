@@ -33,6 +33,7 @@ public class ProdutoService {
         produtoExistente.setNome(produtoAtualizado.getNome());
         produtoExistente.setPreco(produtoAtualizado.getPreco());
         produtoExistente.setCategoria(produtoAtualizado.getCategoria());
+        produtoExistente.setDescricao(produtoAtualizado.getDescricao());
         return produtoRepository.save(produtoExistente);
     }
     // DELETE
